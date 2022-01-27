@@ -38,13 +38,16 @@ button {
   fill: #757575;
 }
 
+body {
+  background-color: #4056b480;
+}
 .gallery {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 1em;
-  background-color: #4056b480;
+  /* background-color: #4056b480; */
   font-family: 'Twinkle Star', cursive;
 }
 
